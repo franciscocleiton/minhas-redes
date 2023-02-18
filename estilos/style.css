@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -27,7 +29,7 @@ section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -55%);
+    transform: translate(-50%, -50%);
     background-size: cover;
     width: 256px;
     height: 550px;
@@ -46,6 +48,16 @@ iframe#tela {
 section#redes {
     text-align: center;
     padding-top: 40px;
+}
+
+section#redes p{
+    font-family: 'Sriracha', cursive;
+    background-color: darkred;
+    color: white;
+    height: 30px;
+    font-weight: bolder;
+    font-size: 12pt;
+    text-align: center
 }
 
 section#redes img {
